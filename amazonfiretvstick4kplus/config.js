@@ -1,3 +1,4 @@
+
 // ============================================
 // PRODUCT CONFIGURATION TEMPLATE
 // ============================================
@@ -27,7 +28,7 @@ const productConfig = {
         // PRODUCT DESCRIPTION
         // 2-3 sentences highlighting key benefits
         // Focus on what the customer gets, not technical specs
-        description: 'Transform Any TV Into Your Personal Entertainment Hub
+        description: `Transform Any TV Into Your Personal Entertainment Hub
 
 Tired of juggling multiple remotes and paying for expensive cable? The Fire TV Stick 4K Plus turns your ordinary TV into a smart entertainment powerhouse that puts you in complete control.
 
@@ -40,7 +41,7 @@ Family-Friendly: Access over 400,000 free movies and shows, plus all your favori
 Future-Proof: Wi-Fi 6 support ensures smooth streaming even when the whole family is online
 Whether you're catching up on the latest series, hosting movie night with friends, or helping your parents cut the cable cord, this tiny device delivers big entertainment. Setup takes just minutes, and suddenly that older TV feels brand new again.
 
-Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and quality entertainment.',
+Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and quality entertainment.`,
 
         // CURRENT PRICE
         // Update this regularly or use "Check Amazon for current price"
@@ -63,14 +64,14 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
 
         // ============================================
         // KEY FEATURES (3-6 features recommended) 
-            // ============================================
-            features: [ { icon: '🎬', text: 'AI-Powered Smart Search - Find movies by actor, plot, even iconic quotes with voice commands' }, { icon: '🌟', text: 'Stunning 4K Ultra HD - Cinematic experience with Dolby Vision, HDR10+, and Dolby Atmos audio' }, { icon: '🚀', text: 'Lightning-Fast Wi-Fi 6 - Smooth streaming even when the whole family is online' }, { icon: '🎮', text: 'Xbox Gaming - Stream hundreds of games with no console required via cloud gaming' }, { icon: '🏠', text: 'Smart Home Control - Manage lights, cameras, and devices with your voice remote' }, { icon: '🆓', text: 'Endless Entertainment - Access 1.8M+ movies/shows plus 400K+ free content' } ] 
+        // ============================================
+        features: [{ icon: '🎬', text: 'AI-Powered Smart Search - Find movies by actor, plot, even iconic quotes with voice commands' }, { icon: '🌟', text: 'Stunning 4K Ultra HD - Cinematic experience with Dolby Vision, HDR10+, and Dolby Atmos audio' }, { icon: '🚀', text: 'Lightning-Fast Wi-Fi 6 - Smooth streaming even when the whole family is online' }, { icon: '🎮', text: 'Xbox Gaming - Stream hundreds of games with no console required via cloud gaming' }, { icon: '🏠', text: 'Smart Home Control - Manage lights, cameras, and devices with your voice remote' }, { icon: '🆓', text: 'Endless Entertainment - Access 1.8M+ movies/shows plus 400K+ free content' }]
 
 
-        // ============================================
-        // PRODUCT IMAGES
-        // ============================================
-        images: {
+// ============================================
+// PRODUCT IMAGES
+// ============================================
+images: {
             // MAIN IMAGE (Most important!)
             // Use the highest quality image available
             // Right-click on Amazon image → Copy image address
@@ -98,8 +99,7 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
 
         // META DESCRIPTION (Appears in search results and Pinterest)
         // 150-160 characters, include keywords
-        description: 'Amazon Fire TV Stick 4K Plus with AI-powered search, Wi-Fi 6, Xbox gaming, and 1.8M+ movies. Transform any TV into a smart entertainment hub.
-',
+        description: `Amazon Fire TV Stick 4K Plus with AI-powered search, Wi-Fi 6, Xbox gaming, and 1.8M+ movies. Transform any TV into a smart entertainment hub.`,
 
         // KEYWORDS (For SEO)
         // 5-10 relevant keywords, comma-separated
