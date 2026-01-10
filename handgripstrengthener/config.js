@@ -85,15 +85,15 @@ const productConfig = {
             // MAIN IMAGE (Most important!)
             // Use the highest quality image available
             // Right-click on Amazon image → Copy image address
-            main: 'https://m.media-amazon.com/images/I/61qGxL3RJEL._AC_SL1500_.jpg',
+            main: 'https://m.media-amazon.com/images/I/61i8RGloiyL._AC_SL1500_.jpg',
 
             // GALLERY IMAGES (3-4 recommended)
             // Show product from different angles or in use
             gallery: [
-                'https://m.media-amazon.com/images/I/71VvYXQH8LL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71kZmLPWnEL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71N8xYvKJwL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71hqEQxVjVL._AC_SL1500_.jpg'
+                'https://m.media-amazon.com/images/I/61XrEOE+bXL._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/71x9Y94UfuL._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/61GVAJhaOTL._AC_SL1024_.jpg',
+                'https://m.media-amazon.com/images/I/61KRV8x4qPL._AC_SL1500_.jpg'
             ]
         }
     },
@@ -298,3 +298,4 @@ function initializePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);
+
