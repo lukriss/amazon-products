@@ -1,4 +1,3 @@
-
 // ============================================
 // PRODUCT CONFIGURATION TEMPLATE
 // ============================================
@@ -18,55 +17,48 @@ const productConfig = {
         // Make it compelling! Focus on the main benefit.
         // Good: "Premium Wireless Headphones - 30Hr Battery Life"
         // Bad: "Headphones Model XYZ-123"
-        title: 'Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search',
+        title: 'New Ring Battery Doorbell with Head-to-Toe video',
 
         // AMAZON ASIN
         // Find this in the Amazon URL: amazon.com/dp/ASIN
         // Example: B08N5WRWNW
-        asin: 'B0F7Z4QZTT',
+        asin: 'B0BZWRLRLK',
 
         // PRODUCT DESCRIPTION
         // 2-3 sentences highlighting key benefits
         // Focus on what the customer gets, not technical specs
-        description: `Transform Any TV Into Your Personal Entertainment Hub
-
-Tired of juggling multiple remotes and paying for expensive cable? The Fire TV Stick 4K Plus turns your ordinary TV into a smart entertainment powerhouse that puts you in complete control.
-
-Why You'll Love It:
-
-Instant Gratification: Say goodbye to endless channel surfing - just ask Alexa to find exactly what you want to watch
-Cinema-Quality Experience: Enjoy stunning 4K Ultra HD with Dolby Vision that makes every movie night feel special
-Smart Home Harmony: Control your lights, check your security cameras, and adjust your thermostat without leaving the couch
-Family-Friendly: Access over 400,000 free movies and shows, plus all your favorite streaming services in one place
-Future-Proof: Wi-Fi 6 support ensures smooth streaming even when the whole family is online
-Whether you're catching up on the latest series, hosting movie night with friends, or helping your parents cut the cable cord, this tiny device delivers big entertainment. Setup takes just minutes, and suddenly that older TV feels brand new again.
-
-Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and quality entertainment.`,
+        description: `Never miss another delivery or worry about who's at your door again. This smart doorbell gives you instant peace of mind with crystal-clear head-to-toe video and instant phone alerts, letting you see and speak to visitors from anywhere in the world. Transform your home security in minutes with easy installation—no wiring required, just charge and mount for immediate protection and convenience.`,
 
         // CURRENT PRICE
         // Update this regularly or use "Check Amazon for current price"
-        price: '$49.99',
+        price: '$99.99',
         priceNote: 'Price may vary. Check Amazon for current price.',
 
         // PRODUCT RATING
         // Find on Amazon product page
         // Use decimals: 4.5, 4.7, etc.
-        rating: 4.7,
+        rating: 4.6,
 
         // NUMBER OF REVIEWS
         // Format with commas: '1,234' or '12,847'
-        reviewCount: '98,771',
+        reviewCount: '37,869',
 
         // IS THIS A PRIME PRODUCT?
         // true = shows Prime badge
         // false = hides Prime badge
-        isPrime: true,
+        isPrime: false,
 
         // ============================================
-        // KEY FEATURES (3-6 features recommended) 
+        // KEY FEATURES (3-6 features recommended)
         // ============================================
-        features: [{ icon: '🎬', text: 'AI-Powered Smart Search - Find movies by actor, plot, even iconic quotes with voice commands' }, { icon: '🌟', text: 'Stunning 4K Ultra HD - Cinematic experience with Dolby Vision, HDR10+, and Dolby Atmos audio' }, { icon: '🚀', text: 'Lightning-Fast Wi-Fi 6 - Smooth streaming even when the whole family is online' }, { icon: '🎮', text: 'Xbox Gaming - Stream hundreds of games with no console required via cloud gaming' }, { icon: '🏠', text: 'Smart Home Control - Manage lights, cameras, and devices with your voice remote' }, { icon: '🆓', text: 'Endless Entertainment - Access 1.8M+ movies/shows plus 400K+ free content' }],
-
+        features: [
+            { icon: '👁️', text: 'Head-to-Toe Video Coverage - See full packages, people, and activity from floor to ceiling with 66% more vertical view' },
+            { icon: '⚡', text: 'Wire-Free Installation - Battery-powered design means no electrician needed, just charge and mount anywhere' },
+            { icon: '🔔', text: 'Smart Alerts That Actually Matter - Get notified only when it detects people or packages, not every leaf that moves' },
+            { icon: '💬', text: 'Talk Through Your Phone - Two-way audio lets you greet guests or give delivery instructions from anywhere in the world' },
+            { icon: '🔋', text: 'Months of Battery Life - Long-lasting rechargeable battery with convenient USB-C charging' },
+            { icon: '🌙', text: `Crystal Clear Day & Night - Color night vision ensures you see who's there even in complete darkness` }
+        ],
 
         // ============================================
         // PRODUCT IMAGES
@@ -75,18 +67,18 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
             // MAIN IMAGE (Most important!)
             // Use the highest quality image available
             // Right-click on Amazon image → Copy image address
-            main: 'https://m.media-amazon.com/images/I/51WtNy0OxLL._AC_SL1500_.jpg',
+            main: 'https://m.media-amazon.com/images/I/61YQrvmxNTL._SL1000_.jpg',
 
             // GALLERY IMAGES (3-4 recommended)
             // Show product from different angles or in use
             gallery: [
-                'https://m.media-amazon.com/images/I/61DlnQ8q-gL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/816DajgEtzL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71lFUA-mszL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/51U7drCB6UL._AC_SL1500_.jpg'
+                'https://m.media-amazon.com/images/I/51+uaVvyW2L._SL1000_.jpg',
+                'https://m.media-amazon.com/images/I/61Vb7V1XNfL._SL1000_.jpg',
+                'https://m.media-amazon.com/images/I/617xX4jN+ML._SL1000_.jpg',
+                'https://m.media-amazon.com/images/I/61kREiM-PuL._SL1000_.jpg'
             ]
         }
-    },
+    }, // END OF PRODUCT OBJECT
 
     // ============================================
     // PAGE METADATA (SEO & Pinterest)
@@ -95,15 +87,15 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
         // PAGE TITLE (Appears in browser tab and Pinterest)
         // Include keywords and make it click-worthy
         // Format: "Product Name - Key Benefit - Year"
-        pageTitle: 'Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search - Stream over 1.8 million movies and shows, free & live TV - Best Choice 2026',
+        pageTitle: 'New Ring Battery Doorbell with Head-to-Toe video - Head-to-Toe HD Video with color night vision - Best Choice 2026',
 
         // META DESCRIPTION (Appears in search results and Pinterest)
         // 150-160 characters, include keywords
-        description: `Amazon Fire TV Stick 4K Plus with AI-powered search, Wi-Fi 6, Xbox gaming, and 1.8M+ movies. Transform any TV into a smart entertainment hub.`,
+        description: `Wireless Ring Battery Doorbell - See packages & visitors head-to-toe, get instant alerts, talk through your phone. Easy DIY install!`,
 
         // KEYWORDS (For SEO)
         // 5-10 relevant keywords, comma-separated
-        keywords: 'Amazon Fire TV Stick 4K Plus, streaming stick 4K, Fire TV 4K device, Wi-Fi 6 media player, Alexa streaming device, smart TV adapter, HDMI streaming stick, 4K TV stick, Amazon streaming device',
+        keywords: 'Ring Battery Doorbell, wireless video doorbell, smart doorbell camera, motion detection doorbell, two-way audio doorbell, home security camera, package detection doorbell, Ring doorbell, battery powered doorbell, Ring',
 
         // BADGE TEXT (Appears at top of page)
         // Create urgency or highlight special status
@@ -136,7 +128,7 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
         {
             icon: '⭐',
             title: 'Top Rated',
-            text: '4.7/5 from 98,771 reviews'  // Update with actual rating
+            text: '4.6/5 from 37,869 reviews'  // Update with actual rating
         },
         {
             icon: '🔒',
@@ -172,7 +164,7 @@ Value: 💰 💵 💳 🏷️ 🎁 📦
 // ============================================
 /*
 Before going live, make sure you've updated:
-
+ 
 [ ] Product title (line 18)
 [ ] Amazon ASIN (line 24)
 [ ] Product description (line 29)
@@ -187,7 +179,7 @@ Before going live, make sure you've updated:
 [ ] Keywords (line 116)
 [ ] Badge text (line 121)
 [ ] Trust signals rating (line 139)
-
+ 
 After updating, save and commit to GitHub!
 */
 
@@ -288,5 +280,3 @@ function initializePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);
-
-

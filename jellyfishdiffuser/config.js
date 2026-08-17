@@ -1,4 +1,3 @@
-
 // ============================================
 // PRODUCT CONFIGURATION TEMPLATE
 // ============================================
@@ -15,75 +14,68 @@ const productConfig = {
     // ============================================
     product: {
         // PRODUCT TITLE
-        // Make it compelling! Focus on the main benefit.
-        // Good: "Premium Wireless Headphones - 30Hr Battery Life"
-        // Bad: "Headphones Model XYZ-123"
-        title: 'Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search',
+        title: 'BLOIMP Essential Oil Diffuser - Unique Jellyfish Mist & Sound Pickup - 250ML',
 
         // AMAZON ASIN
-        // Find this in the Amazon URL: amazon.com/dp/ASIN
-        // Example: B08N5WRWNW
-        asin: 'B0F7Z4QZTT',
+        asin: 'B0DYV256JG',
 
         // PRODUCT DESCRIPTION
-        // 2-3 sentences highlighting key benefits
-        // Focus on what the customer gets, not technical specs
-        description: `Transform Any TV Into Your Personal Entertainment Hub
-
-Tired of juggling multiple remotes and paying for expensive cable? The Fire TV Stick 4K Plus turns your ordinary TV into a smart entertainment powerhouse that puts you in complete control.
-
-Why You'll Love It:
-
-Instant Gratification: Say goodbye to endless channel surfing - just ask Alexa to find exactly what you want to watch
-Cinema-Quality Experience: Enjoy stunning 4K Ultra HD with Dolby Vision that makes every movie night feel special
-Smart Home Harmony: Control your lights, check your security cameras, and adjust your thermostat without leaving the couch
-Family-Friendly: Access over 400,000 free movies and shows, plus all your favorite streaming services in one place
-Future-Proof: Wi-Fi 6 support ensures smooth streaming even when the whole family is online
-Whether you're catching up on the latest series, hosting movie night with friends, or helping your parents cut the cable cord, this tiny device delivers big entertainment. Setup takes just minutes, and suddenly that older TV feels brand new again.
-
-Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and quality entertainment.`,
+        description: `Elevate your home ambiance with the BLOIMP Jellyfish Diffuser. Featuring a unique 5-nozzle mist dispersion that mimics jellyfish movement and sound-activated lighting, it's the perfect blend of aromatherapy and visual art for any room.`,
 
         // CURRENT PRICE
-        // Update this regularly or use "Check Amazon for current price"
-        price: '$49.99',
+        price: '$39.99',
         priceNote: 'Price may vary. Check Amazon for current price.',
 
         // PRODUCT RATING
-        // Find on Amazon product page
-        // Use decimals: 4.5, 4.7, etc.
-        rating: 4.7,
+        rating: 4.2,
 
         // NUMBER OF REVIEWS
-        // Format with commas: '1,234' or '12,847'
-        reviewCount: '98,771',
+        reviewCount: '155',
 
         // IS THIS A PRIME PRODUCT?
-        // true = shows Prime badge
-        // false = hides Prime badge
         isPrime: true,
 
         // ============================================
-        // KEY FEATURES (3-6 features recommended) 
+        // KEY FEATURES
         // ============================================
-        features: [{ icon: '🎬', text: 'AI-Powered Smart Search - Find movies by actor, plot, even iconic quotes with voice commands' }, { icon: '🌟', text: 'Stunning 4K Ultra HD - Cinematic experience with Dolby Vision, HDR10+, and Dolby Atmos audio' }, { icon: '🚀', text: 'Lightning-Fast Wi-Fi 6 - Smooth streaming even when the whole family is online' }, { icon: '🎮', text: 'Xbox Gaming - Stream hundreds of games with no console required via cloud gaming' }, { icon: '🏠', text: 'Smart Home Control - Manage lights, cameras, and devices with your voice remote' }, { icon: '🆓', text: 'Endless Entertainment - Access 1.8M+ movies/shows plus 400K+ free content' }],
-
+        features: [
+            {
+                icon: '🌊',
+                text: 'Unique Jellyfish Mist: 5-nozzle biomimetic design mimics soothing jellyfish movement.'
+            },
+            {
+                icon: '🎵',
+                text: 'Sound Pickup Tech: Mist output synchronizes with ambient music and sounds for a dynamic experience.'
+            },
+            {
+                icon: '🌈',
+                text: '7-Color Mood Lighting: Customizable colors with independent brightness control to match your vibe.'
+            },
+            {
+                icon: '🤫',
+                text: 'Whisper-Quiet Operation: Operates at just 32dB, perfect for peaceful sleep, work, or meditation.'
+            },
+            {
+                icon: '🛡️',
+                text: 'Safe & Leakproof: Auto power-off and food-grade PP materials ensure safety for the whole family.'
+            },
+            {
+                icon: '🎮',
+                text: 'Remote Control: Easy operation of timer (4H/8H), colors, and mist modes from across the room.'
+            }
+        ],
 
         // ============================================
         // PRODUCT IMAGES
         // ============================================
         images: {
-            // MAIN IMAGE (Most important!)
-            // Use the highest quality image available
-            // Right-click on Amazon image → Copy image address
-            main: 'https://m.media-amazon.com/images/I/51WtNy0OxLL._AC_SL1500_.jpg',
+            main: 'https://m.media-amazon.com/images/I/71zrdLSX5ML._AC_SY450_.jpg',
 
-            // GALLERY IMAGES (3-4 recommended)
-            // Show product from different angles or in use
             gallery: [
-                'https://m.media-amazon.com/images/I/61DlnQ8q-gL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/816DajgEtzL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71lFUA-mszL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/51U7drCB6UL._AC_SL1500_.jpg'
+                'https://m.media-amazon.com/images/I/41I1WefhpfL.jpg',
+                'https://m.media-amazon.com/images/I/51Iw7mZJTML.jpg',
+                'https://m.media-amazon.com/images/I/41UozzftFjL.jpg',
+                'https://m.media-amazon.com/images/I/514La1H+nRL.jpg'
             ]
         }
     },
@@ -92,36 +84,21 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
     // PAGE METADATA (SEO & Pinterest)
     // ============================================
     meta: {
-        // PAGE TITLE (Appears in browser tab and Pinterest)
-        // Include keywords and make it click-worthy
-        // Format: "Product Name - Key Benefit - Year"
-        pageTitle: 'Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search - Stream over 1.8 million movies and shows, free & live TV - Best Choice 2026',
+        pageTitle: 'BLOIMP Jellyfish Essential Oil Diffuser - Unique Sound Pickup Aroma Humidifier',
 
-        // META DESCRIPTION (Appears in search results and Pinterest)
-        // 150-160 characters, include keywords
-        description: `Amazon Fire TV Stick 4K Plus with AI-powered search, Wi-Fi 6, Xbox gaming, and 1.8M+ movies. Transform any TV into a smart entertainment hub.`,
+        description: `Experience the mesmerizing BLOIMP Jellyfish Diffuser. Features sound-activated lighting, 5-nozzle mist dispersion, and whisper-quiet operation. Perfect for any home or office.`,
 
-        // KEYWORDS (For SEO)
-        // 5-10 relevant keywords, comma-separated
-        keywords: 'Amazon Fire TV Stick 4K Plus, streaming stick 4K, Fire TV 4K device, Wi-Fi 6 media player, Alexa streaming device, smart TV adapter, HDMI streaming stick, 4K TV stick, Amazon streaming device',
+        keywords: 'jellyfish diffuser, essential oil diffuser, aromatherapy humidifier, sound pickup diffuser, BLOIMP, home decor gift, relaxation',
 
-        // BADGE TEXT (Appears at top of page)
-        // Create urgency or highlight special status
-        // Examples: '🔥 Trending', '⭐ Best Seller', '💎 Premium Choice'
-        badge: '🔥 Trending Product'
+        badge: '⭐ Highly Rated'
     },
 
     // ============================================
     // CALL-TO-ACTION SETTINGS
     // ============================================
     cta: {
-        // PRIMARY BUTTON TEXT
-        // Keep it action-oriented and clear
         buttonText: '🛒 View on Amazon',
-
-        // ALTERNATIVE CTA TEXT
-        // Used for secondary buttons
-        altText: 'Check Latest Price on Amazon'
+        altText: 'Check Latest Price'
     },
 
     // ============================================
@@ -136,7 +113,7 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
         {
             icon: '⭐',
             title: 'Top Rated',
-            text: '4.7/5 from 98,771 reviews'  // Update with actual rating
+            text: '4.2/5 from 155 reviews'
         },
         {
             icon: '🔒',
@@ -288,5 +265,3 @@ function initializePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);
-
-

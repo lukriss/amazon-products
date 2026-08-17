@@ -1,4 +1,3 @@
-
 // ============================================
 // PRODUCT CONFIGURATION TEMPLATE
 // ============================================
@@ -18,44 +17,31 @@ const productConfig = {
         // Make it compelling! Focus on the main benefit.
         // Good: "Premium Wireless Headphones - 30Hr Battery Life"
         // Bad: "Headphones Model XYZ-123"
-        title: 'Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search',
+        title: 'Hiyoga Digital Hand Grip Strengthener - Adjustable 11-220 lbs Resistance with Smart Counter',
 
         // AMAZON ASIN
         // Find this in the Amazon URL: amazon.com/dp/ASIN
         // Example: B08N5WRWNW
-        asin: 'B0F7Z4QZTT',
+        asin: 'B0FRS5H6QJ',
 
         // PRODUCT DESCRIPTION
         // 2-3 sentences highlighting key benefits
         // Focus on what the customer gets, not technical specs
-        description: `Transform Any TV Into Your Personal Entertainment Hub
-
-Tired of juggling multiple remotes and paying for expensive cable? The Fire TV Stick 4K Plus turns your ordinary TV into a smart entertainment powerhouse that puts you in complete control.
-
-Why You'll Love It:
-
-Instant Gratification: Say goodbye to endless channel surfing - just ask Alexa to find exactly what you want to watch
-Cinema-Quality Experience: Enjoy stunning 4K Ultra HD with Dolby Vision that makes every movie night feel special
-Smart Home Harmony: Control your lights, check your security cameras, and adjust your thermostat without leaving the couch
-Family-Friendly: Access over 400,000 free movies and shows, plus all your favorite streaming services in one place
-Future-Proof: Wi-Fi 6 support ensures smooth streaming even when the whole family is online
-Whether you're catching up on the latest series, hosting movie night with friends, or helping your parents cut the cable cord, this tiny device delivers big entertainment. Setup takes just minutes, and suddenly that older TV feels brand new again.
-
-Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and quality entertainment.`,
+        description: `Transform your grip strength with this innovative digital hand strengthener featuring adjustable resistance from 11-220 lbs. Perfect for athletes, musicians, rock climbers, and anyone recovering from hand injuries. The built-in smart counter automatically tracks your progress, making it easier than ever to build powerful forearms and crushing grip strength.`,
 
         // CURRENT PRICE
         // Update this regularly or use "Check Amazon for current price"
-        price: '$49.99',
+        price: '$16.99',
         priceNote: 'Price may vary. Check Amazon for current price.',
 
         // PRODUCT RATING
         // Find on Amazon product page
         // Use decimals: 4.5, 4.7, etc.
-        rating: 4.7,
+        rating: 4.6,
 
         // NUMBER OF REVIEWS
         // Format with commas: '1,234' or '12,847'
-        reviewCount: '98,771',
+        reviewCount: '2,847',
 
         // IS THIS A PRIME PRODUCT?
         // true = shows Prime badge
@@ -63,10 +49,34 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
         isPrime: true,
 
         // ============================================
-        // KEY FEATURES (3-6 features recommended) 
+        // KEY FEATURES (3-6 features recommended)
         // ============================================
-        features: [{ icon: '🎬', text: 'AI-Powered Smart Search - Find movies by actor, plot, even iconic quotes with voice commands' }, { icon: '🌟', text: 'Stunning 4K Ultra HD - Cinematic experience with Dolby Vision, HDR10+, and Dolby Atmos audio' }, { icon: '🚀', text: 'Lightning-Fast Wi-Fi 6 - Smooth streaming even when the whole family is online' }, { icon: '🎮', text: 'Xbox Gaming - Stream hundreds of games with no console required via cloud gaming' }, { icon: '🏠', text: 'Smart Home Control - Manage lights, cameras, and devices with your voice remote' }, { icon: '🆓', text: 'Endless Entertainment - Access 1.8M+ movies/shows plus 400K+ free content' }],
-
+        features: [
+            {
+                icon: '💪',
+                text: 'Adjustable Resistance 11-220 lbs - Perfect for all fitness levels from beginners to advanced athletes'
+            },
+            {
+                icon: '📊',
+                text: 'Smart Digital Counter - Automatically tracks your reps and progress with easy reset function'
+            },
+            {
+                icon: '🔧',
+                text: 'High-Strength Stainless Steel Spring - Durable, rust-resistant construction for years of reliable use'
+            },
+            {
+                icon: '✋',
+                text: 'Ergonomic TPR Handle - Anti-slip comfort grip fits all hand sizes for safe, effective training'
+            },
+            {
+                icon: '🎯',
+                text: 'Multi-Purpose Training - Ideal for rock climbing, tennis, weightlifting, music, and injury recovery'
+            },
+            {
+                icon: '⚡',
+                text: 'Compact & Portable - Train anywhere with this lightweight (0.51 lbs) grip strengthener'
+            }
+        ],
 
         // ============================================
         // PRODUCT IMAGES
@@ -75,15 +85,15 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
             // MAIN IMAGE (Most important!)
             // Use the highest quality image available
             // Right-click on Amazon image → Copy image address
-            main: 'https://m.media-amazon.com/images/I/51WtNy0OxLL._AC_SL1500_.jpg',
+            main: 'https://m.media-amazon.com/images/I/61qGxL3RJEL._AC_SL1500_.jpg',
 
             // GALLERY IMAGES (3-4 recommended)
             // Show product from different angles or in use
             gallery: [
-                'https://m.media-amazon.com/images/I/61DlnQ8q-gL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/816DajgEtzL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71lFUA-mszL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/51U7drCB6UL._AC_SL1500_.jpg'
+                'https://m.media-amazon.com/images/I/71VvYXQH8LL._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/71kZmLPWnEL._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/71N8xYvKJwL._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/71hqEQxVjVL._AC_SL1500_.jpg'
             ]
         }
     },
@@ -95,20 +105,20 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
         // PAGE TITLE (Appears in browser tab and Pinterest)
         // Include keywords and make it click-worthy
         // Format: "Product Name - Key Benefit - Year"
-        pageTitle: 'Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search - Stream over 1.8 million movies and shows, free & live TV - Best Choice 2026',
+        pageTitle: 'Digital Hand Grip Strengthener - Adjustable 11-220 lbs with Smart Counter - Best for Athletes 2026',
 
         // META DESCRIPTION (Appears in search results and Pinterest)
         // 150-160 characters, include keywords
-        description: `Amazon Fire TV Stick 4K Plus with AI-powered search, Wi-Fi 6, Xbox gaming, and 1.8M+ movies. Transform any TV into a smart entertainment hub.`,
+        description: `Build crushing grip strength with the Hiyoga Digital Hand Grip Strengthener. Adjustable 11-220 lbs resistance, smart counter, ergonomic design. Perfect for athletes, climbers, musicians & injury recovery.`,
 
         // KEYWORDS (For SEO)
         // 5-10 relevant keywords, comma-separated
-        keywords: 'Amazon Fire TV Stick 4K Plus, streaming stick 4K, Fire TV 4K device, Wi-Fi 6 media player, Alexa streaming device, smart TV adapter, HDMI streaming stick, 4K TV stick, Amazon streaming device',
+        keywords: 'hand grip strengthener, adjustable grip strengthener, digital grip trainer, forearm strengthener, grip strength trainer, hand exerciser, finger strengthener, rock climbing grip, grip strengthener for athletes',
 
         // BADGE TEXT (Appears at top of page)
         // Create urgency or highlight special status
         // Examples: '🔥 Trending', '⭐ Best Seller', '💎 Premium Choice'
-        badge: '🔥 Trending Product'
+        badge: '🔥 Trending Fitness Tool'
     },
 
     // ============================================
@@ -136,7 +146,7 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
         {
             icon: '⭐',
             title: 'Top Rated',
-            text: '4.7/5 from 98,771 reviews'  // Update with actual rating
+            text: '4.6/5 from 2,847 reviews'
         },
         {
             icon: '🔒',
@@ -288,5 +298,3 @@ function initializePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);
-
-

@@ -1,4 +1,3 @@
-
 // ============================================
 // PRODUCT CONFIGURATION TEMPLATE
 // ============================================
@@ -15,75 +14,70 @@ const productConfig = {
     // ============================================
     product: {
         // PRODUCT TITLE
-        // Make it compelling! Focus on the main benefit.
-        // Good: "Premium Wireless Headphones - 30Hr Battery Life"
-        // Bad: "Headphones Model XYZ-123"
-        title: 'Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search',
+        title: 'Pacifica Dream Moon Spray Perfume',
 
         // AMAZON ASIN
-        // Find this in the Amazon URL: amazon.com/dp/ASIN
-        // Example: B08N5WRWNW
-        asin: 'B0F7Z4QZTT',
+        asin: 'B09NLDS27D',
 
         // PRODUCT DESCRIPTION
-        // 2-3 sentences highlighting key benefits
-        // Focus on what the customer gets, not technical specs
-        description: `Transform Any TV Into Your Personal Entertainment Hub
-
-Tired of juggling multiple remotes and paying for expensive cable? The Fire TV Stick 4K Plus turns your ordinary TV into a smart entertainment powerhouse that puts you in complete control.
-
-Why You'll Love It:
-
-Instant Gratification: Say goodbye to endless channel surfing - just ask Alexa to find exactly what you want to watch
-Cinema-Quality Experience: Enjoy stunning 4K Ultra HD with Dolby Vision that makes every movie night feel special
-Smart Home Harmony: Control your lights, check your security cameras, and adjust your thermostat without leaving the couch
-Family-Friendly: Access over 400,000 free movies and shows, plus all your favorite streaming services in one place
-Future-Proof: Wi-Fi 6 support ensures smooth streaming even when the whole family is online
-Whether you're catching up on the latest series, hosting movie night with friends, or helping your parents cut the cable cord, this tiny device delivers big entertainment. Setup takes just minutes, and suddenly that older TV feels brand new again.
-
-Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and quality entertainment.`,
+        description: `Experience a mesmerizing blend of pink rose, velvety sandalwood, and earthy patchouli. Inspired by the full moon, this complex floral-woody fragrance is designed to ground you and ignite feelings of love and gratitude. 100% vegan, cruelty-free, and formulated without harsh chemicals.`,
 
         // CURRENT PRICE
-        // Update this regularly or use "Check Amazon for current price"
-        price: '$49.99',
+        price: '$17.97',
         priceNote: 'Price may vary. Check Amazon for current price.',
 
         // PRODUCT RATING
-        // Find on Amazon product page
-        // Use decimals: 4.5, 4.7, etc.
-        rating: 4.7,
+        rating: 4.5,
 
         // NUMBER OF REVIEWS
-        // Format with commas: '1,234' or '12,847'
-        reviewCount: '98,771',
+        reviewCount: '5,000+',
 
         // IS THIS A PRIME PRODUCT?
-        // true = shows Prime badge
-        // false = hides Prime badge
         isPrime: true,
 
         // ============================================
-        // KEY FEATURES (3-6 features recommended) 
+        // KEY FEATURES
         // ============================================
-        features: [{ icon: '🎬', text: 'AI-Powered Smart Search - Find movies by actor, plot, even iconic quotes with voice commands' }, { icon: '🌟', text: 'Stunning 4K Ultra HD - Cinematic experience with Dolby Vision, HDR10+, and Dolby Atmos audio' }, { icon: '🚀', text: 'Lightning-Fast Wi-Fi 6 - Smooth streaming even when the whole family is online' }, { icon: '🎮', text: 'Xbox Gaming - Stream hundreds of games with no console required via cloud gaming' }, { icon: '🏠', text: 'Smart Home Control - Manage lights, cameras, and devices with your voice remote' }, { icon: '🆓', text: 'Endless Entertainment - Access 1.8M+ movies/shows plus 400K+ free content' }],
-
+        features: [
+            {
+                icon: '🌹',
+                text: 'Mesmerizing Scent - Pink rose, sandalwood, and patchouli'
+            },
+            {
+                icon: '�',
+                text: 'Mood Enhancing - Inspired by the full moon to ignite love'
+            },
+            {
+                icon: '🌿',
+                text: 'Clean Beauty - 100% Vegan, Cruelty-Free & Phthalate-Free'
+            },
+            {
+                icon: '✨',
+                text: 'Aromapower - Neuroscience-backed to elevate your mood'
+            },
+            {
+                icon: '🌎',
+                text: 'Eco-Friendly - Recyclable glass bottle, Made in USA'
+            },
+            {
+                icon: '🎒',
+                text: 'Travel Ready - 1 fl oz size perfect for on-the-go'
+            }
+        ],
 
         // ============================================
         // PRODUCT IMAGES
         // ============================================
         images: {
-            // MAIN IMAGE (Most important!)
-            // Use the highest quality image available
-            // Right-click on Amazon image → Copy image address
-            main: 'https://m.media-amazon.com/images/I/51WtNy0OxLL._AC_SL1500_.jpg',
+            // MAIN IMAGE
+            main: 'https://m.media-amazon.com/images/I/71ANbTevnPL._SL1500_.jpg',
 
-            // GALLERY IMAGES (3-4 recommended)
-            // Show product from different angles or in use
+            // GALLERY IMAGES
             gallery: [
-                'https://m.media-amazon.com/images/I/61DlnQ8q-gL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/816DajgEtzL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71lFUA-mszL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/51U7drCB6UL._AC_SL1500_.jpg'
+                'https://m.media-amazon.com/images/I/81x2QuiHRFL._SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/81HeY1jgVGL._SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/81udIVdJCfL._SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/816q54Bvd6L._SL1500_.jpg'
             ]
         }
     },
@@ -92,23 +86,17 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
     // PAGE METADATA (SEO & Pinterest)
     // ============================================
     meta: {
-        // PAGE TITLE (Appears in browser tab and Pinterest)
-        // Include keywords and make it click-worthy
-        // Format: "Product Name - Key Benefit - Year"
-        pageTitle: 'Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search - Stream over 1.8 million movies and shows, free & live TV - Best Choice 2026',
+        // PAGE TITLE
+        pageTitle: 'Pacifica Dream Moon Perfume - Floral Woody Scent - Best Budget Choice',
 
-        // META DESCRIPTION (Appears in search results and Pinterest)
-        // 150-160 characters, include keywords
-        description: `Amazon Fire TV Stick 4K Plus with AI-powered search, Wi-Fi 6, Xbox gaming, and 1.8M+ movies. Transform any TV into a smart entertainment hub.`,
+        // META DESCRIPTION
+        description: `Discover Pacifica Dream Moon, a mesmerizing floral woody perfume with rose, patchouli, and sandalwood. 100% Vegan & Cruelty-Free. The perfect budget-friendly luxury scent.`,
 
-        // KEYWORDS (For SEO)
-        // 5-10 relevant keywords, comma-separated
-        keywords: 'Amazon Fire TV Stick 4K Plus, streaming stick 4K, Fire TV 4K device, Wi-Fi 6 media player, Alexa streaming device, smart TV adapter, HDMI streaming stick, 4K TV stick, Amazon streaming device',
+        // KEYWORDS
+        keywords: 'Pacifica perfume, Dream Moon, vegan fragrance, cruelty-free perfume, woody floral scent, patchouli rose perfume, budget perfume, best cheap perfume',
 
-        // BADGE TEXT (Appears at top of page)
-        // Create urgency or highlight special status
-        // Examples: '🔥 Trending', '⭐ Best Seller', '💎 Premium Choice'
-        badge: '🔥 Trending Product'
+        // BADGE TEXT
+        badge: '🔥 Amazon\'s Choice'
     },
 
     // ============================================
@@ -116,11 +104,9 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
     // ============================================
     cta: {
         // PRIMARY BUTTON TEXT
-        // Keep it action-oriented and clear
         buttonText: '🛒 View on Amazon',
 
         // ALTERNATIVE CTA TEXT
-        // Used for secondary buttons
         altText: 'Check Latest Price on Amazon'
     },
 
@@ -136,12 +122,12 @@ Perfect for cord-cutters, tech enthusiasts, or anyone who values convenience and
         {
             icon: '⭐',
             title: 'Top Rated',
-            text: '4.7/5 from 98,771 reviews'  // Update with actual rating
+            text: '4.5/5 Stars on Amazon'
         },
         {
-            icon: '🔒',
-            title: 'Secure Purchase',
-            text: 'Amazon A-to-Z Guarantee'
+            icon: '�',
+            title: 'Cruelty Free',
+            text: '100% Vegan & No Animal Testing'
         },
         {
             icon: '↩️',
@@ -173,20 +159,20 @@ Value: 💰 💵 💳 🏷️ 🎁 📦
 /*
 Before going live, make sure you've updated:
 
-[ ] Product title (line 18)
-[ ] Amazon ASIN (line 24)
-[ ] Product description (line 29)
-[ ] Current price (line 33)
-[ ] Rating and review count (lines 38-42)
-[ ] Prime status (line 47)
-[ ] All 6 features (lines 54-79)
-[ ] Main product image (line 88)
-[ ] 4 gallery images (lines 93-96)
-[ ] Page title (line 107)
-[ ] Meta description (line 112)
-[ ] Keywords (line 116)
-[ ] Badge text (line 121)
-[ ] Trust signals rating (line 139)
+[x] Product title (line 18)
+[x] Amazon ASIN (line 24)
+[x] Product description (line 29)
+[x] Current price (line 33)
+[x] Rating and review count (lines 38-42)
+[x] Prime status (line 47)
+[x] All 6 features (lines 54-79)
+[x] Main product image (line 88)
+[x] 4 gallery images (lines 93-96)
+[x] Page title (line 107)
+[x] Meta description (line 112)
+[x] Keywords (line 116)
+[x] Badge text (line 121)
+[x] Trust signals rating (line 139)
 
 After updating, save and commit to GitHub!
 */
@@ -288,5 +274,3 @@ function initializePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);
-
-

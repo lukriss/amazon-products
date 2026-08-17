@@ -27,7 +27,7 @@ const productConfig = {
         // PRODUCT DESCRIPTION
         // 2-3 sentences highlighting key benefits
         // Focus on what the customer gets, not technical specs
-        description: 'Write a compelling description here. Focus on benefits and how this product solves problems or improves life. Make it emotional and relatable.',
+        description: `Write a compelling description here. Focus on benefits and how this product solves problems or improves life. Make it emotional and relatable.`,
 
         // CURRENT PRICE
         // Update this regularly or use "Check Amazon for current price"
@@ -109,7 +109,7 @@ const productConfig = {
 
         // META DESCRIPTION (Appears in search results and Pinterest)
         // 150-160 characters, include keywords
-        description: 'Compelling description with keywords that makes people want to click and learn more about this amazing product.',
+        description: `Compelling description with keywords that makes people want to click and learn more about this amazing product.`,
 
         // KEYWORDS (For SEO)
         // 5-10 relevant keywords, comma-separated
