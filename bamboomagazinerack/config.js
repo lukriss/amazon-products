@@ -50,12 +50,11 @@ const productConfig = {
         ],
 
         images: {
-            main: 'https://m.media-amazon.com/images/I/71uY4UvQEfL._AC_SL1500_.jpg',
+            main: 'https://m.media-amazon.com/images/I/716lfaCkPHL._AC_SL1500_.jpg',
             gallery: [
-                'https://m.media-amazon.com/images/I/71uY4UvQEfL._AC_SL1500_.jpg',
-                'https://m.media-amazon.com/images/I/71Gai2YktZL._AC_UL320_.jpg',
-                'https://m.media-amazon.com/images/I/71XFE+fvoqL._AC_UL320_.jpg',
-                'https://m.media-amazon.com/images/I/71t-Q2IcH1L._AC_UL320_.jpg'
+                'https://m.media-amazon.com/images/I/716lfaCkPHL._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/81VAXVOjbhL._AC_SL1500_.jpg',
+                'https://m.media-amazon.com/images/I/81VZjDg5c0L._AC_SL1500_.jpg'
             ]
         }
     },
