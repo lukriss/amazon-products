@@ -92,6 +92,24 @@ const productConfig = {
             title: 'Easy Returns',
             text: '30-day return policy'
         }
+    ],
+
+    // ============================================
+    // CONTEXTUAL BLOG BACKLINKS
+    // ============================================
+    relatedBlogs: [
+        {
+            title: 'Bamboo Furniture Care & Styling Guides',
+            description: 'Discover expert tips for choosing, styling, and preserving eco-friendly bamboo furniture and home accent pieces.',
+            url: 'http://bamboofurnituretalk.com/',
+            anchorText: 'Visit Bamboo Furniture Talk →'
+        },
+        {
+            title: 'Smart Home Organization & Moving Tips',
+            description: 'Explore practical space-saving ideas, storage hacks, and organization guides for clutter-free living.',
+            url: 'https://citymoveguide.com/',
+            anchorText: 'Visit City Move Guide →'
+        }
     ]
 };
 
@@ -229,6 +247,26 @@ function initializePage() {
         button.href = amazonLink;
         button.textContent = productConfig.cta.buttonText;
     });
+
+    const blogsContainer = document.getElementById('related-blogs-grid');
+    const blogsSection = document.getElementById('related-blogs-section');
+    if (blogsContainer && productConfig.relatedBlogs && productConfig.relatedBlogs.length > 0) {
+        blogsContainer.innerHTML = '';
+        productConfig.relatedBlogs.forEach(blog => {
+            const card = document.createElement('div');
+            card.className = 'blog-card';
+            card.innerHTML = `
+                <div>
+                    <div class="blog-title">${blog.title}</div>
+                    <div class="blog-description">${blog.description}</div>
+                </div>
+                <a href="${blog.url}" target="_blank" rel="noopener" class="blog-link">${blog.anchorText}</a>
+            `;
+            blogsContainer.appendChild(card);
+        });
+    } else if (blogsSection) {
+        blogsSection.style.display = 'none';
+    }
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);

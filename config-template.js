@@ -158,6 +158,21 @@ const productConfig = {
             title: 'Easy Returns',
             text: '30-day return policy'
         }
+    ],
+
+    // ============================================
+    // CONTEXTUAL BLOG BACKLINKS
+    // ============================================
+    // Add relevant blog posts/sites here to pass dofollow backlinks
+    relatedBlogs: [
+        /* Example:
+        {
+            title: 'Blog Article Title',
+            description: 'Short snippet describing why this guide is helpful.',
+            url: 'https://yourblog.com/article-slug',
+            anchorText: 'Read Full Guide →'
+        }
+        */
     ]
 };
 
@@ -295,6 +310,26 @@ function initializePage() {
         button.href = amazonLink;
         button.textContent = productConfig.cta.buttonText;
     });
+
+    const blogsContainer = document.getElementById('related-blogs-grid');
+    const blogsSection = document.getElementById('related-blogs-section');
+    if (blogsContainer && productConfig.relatedBlogs && productConfig.relatedBlogs.length > 0) {
+        blogsContainer.innerHTML = '';
+        productConfig.relatedBlogs.forEach(blog => {
+            const card = document.createElement('div');
+            card.className = 'blog-card';
+            card.innerHTML = `
+                <div>
+                    <div class="blog-title">${blog.title}</div>
+                    <div class="blog-description">${blog.description}</div>
+                </div>
+                <a href="${blog.url}" target="_blank" rel="noopener" class="blog-link">${blog.anchorText}</a>
+            `;
+            blogsContainer.appendChild(card);
+        });
+    } else if (blogsSection) {
+        blogsSection.style.display = 'none';
+    }
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);
