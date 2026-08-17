@@ -63,6 +63,18 @@ $NewHTML = $HTMLContent -replace 'href="styles.css"', 'href="../styles.css"'
 $NewHTML | Set-Content "$Folder\index.html"
 Write-Host "Created $Folder\index.html" -ForegroundColor Gray
 
+# 3. Automatically add new product URL to sitemap.xml if present
+if (Test-Path "sitemap.xml") {
+    $SitemapContent = Get-Content "sitemap.xml" -Raw
+    $Today = Get-Date -Format "yyyy-MM-dd"
+    $NewEntry = "  <url>`n    <loc>https://lukriss.github.io/amazon-products/$Folder/</loc>`n    <lastmod>$Today</lastmod>`n    <changefreq>weekly</changefreq>`n    <priority>0.8</priority>`n  </url>`n</urlset>"
+    if ($SitemapContent -notmatch "$Folder/") {
+        $UpdatedSitemap = $SitemapContent -replace '</urlset>', $NewEntry
+        $UpdatedSitemap | Set-Content "sitemap.xml"
+        Write-Host "Updated sitemap.xml with $Folder/" -ForegroundColor Gray
+    }
+}
+
 Write-Host ""
 Write-Host "SUCCESS! New product page ready." -ForegroundColor Green
 Write-Host "------------------------------------------"
@@ -71,6 +83,6 @@ Write-Host "2. Edit 'config.js' with your new product details."
 Write-Host "3. Push to GitHub."
 Write-Host ""
 Write-Host "Your new URL will be:" -ForegroundColor Yellow
-Write-Host "https://YOUR-USERNAME.github.io/amazon-products/$Folder/" -ForegroundColor Yellow
+Write-Host "https://lukriss.github.io/amazon-products/$Folder/" -ForegroundColor Yellow
 Write-Host "------------------------------------------"
 Start-Sleep -Seconds 120
