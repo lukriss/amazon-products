@@ -5,9 +5,10 @@
 
 const productConfig = {
     // ============================================
-    // YOUR AMAZON ASSOCIATES ID (Don't change this)
+    // YOUR AMAZON ASSOCIATES ID & GOOGLE ANALYTICS ID
     // ============================================
     associatesId: 'chlu02-20',
+    gaMeasurementId: 'G-SHQBKEX9C2',
 
     // ============================================
     // PRODUCT DETAILS
@@ -309,6 +310,14 @@ function initializePage() {
     document.querySelectorAll('.cta-button').forEach(button => {
         button.href = amazonLink;
         button.textContent = productConfig.cta.buttonText;
+        button.addEventListener('click', () => {
+            if (typeof window.gtag === 'function') {
+                window.gtag('event', 'click_amazon_cta', {
+                    'product_asin': productConfig.product.asin,
+                    'product_title': productConfig.product.title
+                });
+            }
+        });
     });
 
     const blogsContainer = document.getElementById('related-blogs-grid');
@@ -329,6 +338,20 @@ function initializePage() {
         });
     } else if (blogsSection) {
         blogsSection.style.display = 'none';
+    }
+
+    // Load Google Analytics dynamically if configured
+    if (productConfig.gaMeasurementId && !window.gtag) {
+        const gaScript = document.createElement('script');
+        gaScript.async = true;
+        gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${productConfig.gaMeasurementId}`;
+        document.head.appendChild(gaScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', productConfig.gaMeasurementId);
     }
 }
 
